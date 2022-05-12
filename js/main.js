@@ -503,12 +503,3 @@ window.addEventListener('DOMContentLoaded', function() {
     getDinamicInformation('#weight');
     getDinamicInformation('#age');
 });
-
-const arr = [
-    {a:1, b:2},
-    {a:1, b:2},
-    {a:1, b:2}
-];
-
-const result = arr.map(item => Object.entries(item)[1][1]).reduce((sum, curr) => sum + curr);
-console.log(result);
