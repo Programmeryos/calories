@@ -44,7 +44,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
     //Timer
 
-    const deadline = '2022-05-26';
+    const deadline = '2022-05-20';
 
     function getTimeRemaining (endtime) {
         const total = Date.parse(deadline) - Date.parse(new Date()),
